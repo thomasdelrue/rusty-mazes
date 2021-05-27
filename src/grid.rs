@@ -51,6 +51,7 @@ impl Grid {
         _grid
     }
 
+    // TODO: north, south, west, east...
     fn configure_cells(&mut self) {
         for row in 0..self.rows {
             for col in 0..self.columns {
@@ -58,6 +59,8 @@ impl Grid {
             }
         }
     }
+
+    // TODO: write iterators, iter_rows, iter_cells...
     
 }
 
